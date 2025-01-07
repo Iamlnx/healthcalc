@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealthCalc</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <ins class="adsbygoogle"
+    style="display:inline-block;width:728px;height:90px"
+    data-ad-client="ca-pub-1234567890123456"
+    data-ad-slot="1234567890"></ins>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+    <header>
+        <div>
+            <img class="logo" src="" alt="logo-healthcalc">
+        </div>
+        <div class="authors">
+            <a href="https://google.com">Developed by ©iam_lnx</a>
+            <a href="https://google.com">Designed by @eve</a>
+        </div>
+    </header>
+    <main>
+        <form>
+            <section class="form-header">
+                <div>
+                    <h2>Fill with your data</h2>
+                    <p>BMI Calculator</p>
+                </div>
+                <div class="change-mode">
+                    <div class="light-active"></div>
+                    <img id="sun" src="./media/Sun.svg" alt="light-mode">
+                    <img id="moon" class="active-img" src="./media/Moon.svg" alt="dark-mode">
+                </div>
+            </section>
+            <section class="field">
+                <label for="age">Age</label>
+                <input type="number" placeholder="Insert your age (Ex.: 22)" name="age" id="age">
+            </section>
+            <section class="field">
+                <label for="gender">Gender <strong>(Choose your biological gender)</strong></label>
+                <div class="gender-radio">
+                    <label class="radio-control" for="feminine">
+                        <input type="radio" name="gender" id="feminine" value="Feminine">
+                        Feminine
+                    </label>
+                    <label class="radio-control" for="masculine">
+                        <input type="radio" name="gender" id="masculine" value="Masculine">
+                        Masculine
+                    </label>
+                </div>
+            </section>
+            <section class="field">
+                <label for="height">Height</label>
+                <input type="number" placeholder="Type your height in centimeters(Ex.: 176)" name="height" id="height">
+            </section>
+            <section class="field">
+                <label for="weight">Weight</label>
+                <input type="number" placeholder="Type your weight in Kg(Ex.: 76.5)" name="weight" id="weight">
+            </section>
+            <section class="field">
+                <label for="activity">Activity</label>
+                <select name="activity" id="activity">
+                    <option disabled="disabled" selected="selected">Please select...</option>
+                    <option value="sedentary">Sedentary (No activity)</option>
+                    <option value="light">Light (1-2 times a week)</option>
+                    <option value="moderate">Moderate (3-5 times a week)</option>
+                    <option value="active">Active (6-7 times a week)</option>
+                    <option value="athlete">Athlete (2x a day)</option>
+                </select>
+            </section>
+        </form>
+        <aside>
+            <section class="main">
+                    <div class="text-section">
+                        <p class="title-main">What BMI stands for?</p>
+                        <p class="text-main">BMI means Body Mass Index, it is a calculated measurement of body weight relative to height.</p>
+                        <p class="title-main">How it is calculated?</p>
+                        <p class="text-main">BMI = Weight(Kg) / Height(m)²</p>
+                        <p class="title-main">Does it count to anyone?</p>
+                        <p class="text-main">No, BMI is intended for adults only, as children and adolescents are constantly growing. For adults, BMI is categorized into underweight, healthy weight, overweight, and obesity.</p>
+                        <p class="title-main">It tell if i’m healthy or not?</p>
+                        <p class="text-main">BMI doesn't directly measure body fatness, but it is correlated with direct measures of adiposity. BMI also doesn't differentiate between lean body mass and fat mass. For example, a person can have a high BMI due to being muscular but still have a low fat mass. Always contact a health professional to be sure!</p>
+                    </div>
+                    <div class="ad"></div>
+            </section>
+            <section class="bmi">
+                <div class="tabs">
+                    <div class="tab tab-active bmi-btn">BMI</div>
+                    <div class="tab cal-btn">Calories</div>
+                </div>
+                <div class="tab-content">
+                    <div class="tab-header">
+                        <div class="title-subtitle">
+                            <h1>BMI Calculator</h1>
+                            <p>Your personal health calculator</p>
+                        </div>
+                        <p>Your BMI =<strong class="bmi-result"> 20.1</strong></p>
+                    </div>
+                    <div class="bmi-content">
+                        <div class="indicator">
+                            <div class="ball"></div>
+                        </div>
+                        <div class="chart-1"></div>
+                        <div class="chart-2"></div>
+                        <div class="chart-3"></div>
+                        <div class="chart-4"></div>
+                        <div class="chart-5"></div>
+                        <div class="chart-6"></div>
+                        <div class="chart-7"></div>
+                        <div class="chart-8"></div>
+                    </div>
+                    <div class="bmi-subtitle">
+                        <p class="underweight">Underweight</p>
+                        <p class="normal">Normal</p>
+                        <p class="overweight">Overweight</p>
+                        <p class="obesity">Obesity</p>
+                    </div>
+                </div>
+                <div class="bmi-description">
+                    BMI is important as it helps assess if a person has a healthy weight, indicating potential health risks and guiding lifestyle decisions for better health.
+                </div>
+            </section>
+            <section class="calories">
+                <div class="tabs">
+                    <div class="bmi-btn-c tab">BMI</div>
+                    <div class="tab tab-active cal-btn-c">Calories</div>
+                </div>
+                <div class="tab-content">
+                    <div class="tab-header">
+                        <div class="title-subtitle">
+                            <h1>BMI Calculator</h1>
+                            <p>Your personal health calculator</p>
+                        </div>
+                    </div>
+                    <div class="calories-content">
+                        <div class="cell">
+                            <div class="cell-type">
+                                <p class="title-cell">Gain</p>
+                                <p class="value-gain">0.5 kg/week</p>
+                            </div>
+                            <div class="cell-calories">
+                                <p class="calories-gain">2,425</p>
+                                <p class="subtitle-calories">Calories/day</p>
+                            </div>
+                        </div>
+                        <div class="cell">
+                            <div class="cell-type">
+                                <p class="title-cell">Maintain</p>
+                                <p class="value-maintain">0.5 kg/week</p>
+                            </div>
+                            <div class="cell-calories">
+                                <p class="calories-maintain">2,425</p>
+                                <p class="subtitle-calories">Calories/day</p>
+                            </div>
+                        </div>
+                        <div class="cell">
+                            <div class="cell-type">
+                                <p class="title-cell">Loss</p>
+                                <p class="value-loss">0.5 kg/week</p>
+                            </div>
+                            <div class="cell-calories">
+                                <p class="calories-loss">2,425</p>
+                                <p class="subtitle-calories">Calories/day</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="blank-space"></div>
+            </section>
+            <section class="action-buttons">
+                <button class="clear">Clear</button>
+                <button class="calculate">Calculate</button>
+            </section>
+        </aside>
+    </main>
+
+    <script src="./index.js"></script>
+</body>
+</html>
